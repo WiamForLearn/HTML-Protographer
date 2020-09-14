@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Second one learn html" />
+    <meta name="robot" content="index,follow" />
+    <title>Photographer</title>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <h1 id="logo">Elena Joy</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-intro flex">
+          <h2>Elena Joy <br />Photographer</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            et harum odio! Excepturi exercitationem at est facilis voluptate,
+          </p>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="./img/elena-joy.png"
+            alt="picture elena-joy"
+            class="hero-people"
+          />
+          <img src="./img/plant1.png" class="plant plant1" alt="plant1" />
+          <img src="./img/plant2.png" class="plant plant2" alt="plant2" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <h5>MINIMAL</h5>
+          <img src="./img/about-image.png" alt="portrait-picture" />
+        </div>
+        <div class="about-text flex">
+          <h2>Elena Joy</h2>
+          <div class="about-life">
+            <h3>My Life</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              reiciendis quos delectus, harum quod optio eius esse eaque atque
+              exercitationem!
+            </p>
+          </div>
+          <div class="about-work">
+            <h3>My Work</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              reiciendis quos delectus, harum quod optio eius esse eaque atque
+              exercitationem!
+            </p>
+          </div>
+          <div class="about-contact">
+            <h3>Get in touch</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              reiciendis quos delectus, harum quod optio eius esse eaque atque
+              exercitationem!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- gallery section -->
+      <section class="gallery" id="gallery">
+        <header class="gallery-header">
+          <h2>Photography</h2>
+          <p>My work pictures that I took</p>
+        </header>
+        <img class="gallery1" src="./img/gallery-1.jpg" alt="" />
+        <img class="gallery2" src="./img/gallery-2.jpg" alt="" />
+        <img class="gallery3" src="./img/gallery-3.jpg" alt="" />
+        <img class="gallery4" src="./img/gallery-4.jpg" alt="" />
+      </section>
+      <!-- contact section  -->
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>Get in <br /><span>Touch</span></h2>
+          <form action="">
+            <label for="email">Your email:</label>
+            <input type="email" name="email" id="email" required />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="./img/contact-image.jpg" alt="contact-joy" />
+      </section>
+    </main>
+    <footer>
+      <h4>Elena Joy &copy; 2020</h4>
+      <ul>
+        <li>
+          <a href=""><img src="./img/youtube-symbol 1.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/twitter 1.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/instagram 1.svg" alt="" /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
