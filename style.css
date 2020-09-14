@@ -218,7 +218,7 @@ nav {
 /* gallery */
 .gallery {
   display: grid;
-  min-height:100vh
+  min-height:100vh;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
   position: relative;
